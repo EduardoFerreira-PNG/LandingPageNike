@@ -1,0 +1,79 @@
+@media screen and (max-width: 940px){
+    .hero .mid h2 {
+        font-size: 18rem;
+      }
+
+      .hero .mid img{
+        width: 450px;
+      }
+}
+@media screen and (max-width: 840px){
+    .hero .mid h2 {
+        font-size: 15rem;
+      }
+
+      .hero .mid img{
+        width: 400px;
+      }
+
+      .hamb{
+        display: block;
+      }
+
+      header nav{
+        width: 100%;
+        height: 100vh;
+        background: #111;
+        padding: 40px 50px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 100%;
+        transition: .5s left;
+      }
+
+      header nav.click{
+        left: 0%;
+      }
+
+      header nav a{
+        display: block;
+        font-size: 2.3rem;
+        color: #4e4e4e;
+        margin: 0px 0px 40px 0px;
+        padding: 0px 8px 5px;
+        transition: .3s color;
+      }
+
+      header nav a:hover{
+        color: #fff;
+      }
+      header nav a::before{
+        content: none;
+      }
+    }
+@media screen and (max-width: 690px){
+    .hero .mid h2 {
+        font-size: 10rem;
+        top: 30%;
+      }
+
+      .hero .mid img{
+        width: 300px;
+        top: 70%;
+      }
+}
+@media screen and (max-width: 540px){
+    .hero .mid h2 {
+        font-size: 7rem;
+      }
+
+      .hero .mid img{
+        width: 220px;
+      }
+
+      .hero .container{
+        padding: 10vw 0 100px;
+      }
+}
